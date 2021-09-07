@@ -3,9 +3,7 @@
 * {
     font-family: "Poppins", sans-serif;
 }
-section {
-    padding: 20px 0 20px 0;
-}
+
 /* Navbar */
 .navbar-nav .nav-item {
     font-family: "Heebo", sans-serif;
@@ -45,7 +43,7 @@ section {
     font-size: 12px;
 }
 .text-danger {
-    font-size: 16px;
+    font-size: 15px;
 }
 .price {
     margin-top: -15px;
