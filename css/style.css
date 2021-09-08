@@ -37,7 +37,12 @@
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.129);
 }
 .card-title {
-    font-size: 14px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .text-secondary {
     font-size: 12px;
@@ -53,7 +58,7 @@
 @media (min-width: 768px) {
     .hero .carousel-inner {
         padding-top: -120px;
-        max-height: 50vh;
+        max-height: 70vh;
     }
     .img-category {
         width: 50px;
@@ -81,6 +86,6 @@
         font-size: 12px;
     }
     .text-danger {
-        font-size: 15px;
+        font-size: 17px;
     }
 }
