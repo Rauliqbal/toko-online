@@ -59,6 +59,7 @@
     .hero .carousel-inner {
         padding-top: -120px;
         max-height: 70vh;
+        border-radius: 15px;
     }
     .img-category {
         width: 50px;
