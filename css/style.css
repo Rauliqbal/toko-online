@@ -13,14 +13,13 @@
 }
 
 .hero .carousel-inner {
-    max-height: 100vh;
     border-radius: 9px;
 }
 /* category */
 .menu-category img {
     padding: 20px 20px;
     width: 80px;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.246);
+
     border-radius: 9px;
 }
 .menu-category a {
@@ -62,7 +61,7 @@
 @media (min-width: 768px) {
     .hero .carousel-inner {
         padding-top: -120px;
-        max-height: 70vh;
+        max-height: 700vh;
         border-radius: 9px;
     }
     .menu-category img {
