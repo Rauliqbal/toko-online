@@ -16,19 +16,16 @@
     border-radius: 9px;
 }
 /* category */
-.menu-category img {
-    padding: 20px 20px;
-    width: 80px;
-
-    border-radius: 9px;
+.img-category {
+    padding: 10px 10px;
+    width: 50px;
 }
 .menu-category a {
     text-decoration: none;
 }
 .menu-category p {
     color: #333333;
-    font-size: 14px;
-    letter-spacing: 1px;
+    font-size: 10px;
 }
 
 /* Product */
